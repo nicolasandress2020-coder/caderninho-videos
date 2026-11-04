@@ -547,6 +547,128 @@
           "tipo": "fim"
         }
       ]
+    },
+    {
+      "id": "13-cliente-sumiu",
+      "legenda": "Aquele cliente que comprou fiado e sumiu do mapa... acontece em todo comércio 😅\n\nCom o app você vê quem está devendo há mais tempo e cobra no WhatsApp, sem constrangimento.\n\nR$ 29,99 por ano. Peça o app aqui no Direct 📩",
+      "cenas": [
+        {
+          "tipo": "texto",
+          "titulo": "O cliente comprou\nfiado e sumiu?",
+          "fala": "O cliente comprou fiado e sumiu?"
+        },
+        {
+          "tipo": "tela",
+          "tela": "lista",
+          "titulo": "Quem está\natrasado, em vermelho",
+          "fala": "Os clientes atrasados aparecem em vermelho na sua lista.",
+          "foco": [
+            42,
+            780,
+            1038,
+            1158
+          ],
+          "zoom": 1.55
+        },
+        {
+          "tipo": "tela",
+          "tela": "cliente",
+          "titulo": "Cobrar no\nWhatsApp",
+          "fala": "Um toque e a cobrança sai pelo WhatsApp, com o Pix pronto.",
+          "foco": [
+            42,
+            843,
+            1038,
+            972
+          ],
+          "zoom": 1.5,
+          "toque": true
+        },
+        {
+          "tipo": "fim"
+        }
+      ]
+    },
+    {
+      "id": "14-quem-deve-mais",
+      "legenda": "Você sabe quem são os clientes que mais te devem? Muita gente descobre só no fim do mês 🤔\n\nO relatório mostra o ranking de quem deve mais, para você cobrar primeiro quem pesa mais.\n\nR$ 29,99 por ano. Peça o app aqui no Direct 📩",
+      "cenas": [
+        {
+          "tipo": "texto",
+          "titulo": "Quem é o cliente\nque mais te deve?",
+          "fala": "Você sabe quem é o cliente que mais te deve?"
+        },
+        {
+          "tipo": "tela",
+          "tela": "relatorio",
+          "titulo": "Quem deve mais,\nno relatório",
+          "fala": "No relatório você vê quem deve mais, em ordem.",
+          "foco": [
+            42,
+            1050,
+            1038,
+            1584
+          ],
+          "zoom": 1.35
+        },
+        {
+          "tipo": "tela",
+          "tela": "relatorio",
+          "titulo": "Fiado x recebido",
+          "fala": "E compara quanto saiu de fiado com quanto já recebeu.",
+          "foco": [
+            42,
+            459,
+            1038,
+            711
+          ],
+          "zoom": 1.45
+        },
+        {
+          "tipo": "fim"
+        }
+      ]
+    },
+    {
+      "id": "15-anotar-em-segundos",
+      "legenda": "Cliente na fila e você ainda procurando a página do caderno? 😬\n\nNo app, anotar o fiado leva poucos segundos: escolhe o cliente, coloca o valor e pronto.\n\nR$ 29,99 por ano. Peça o app aqui no Direct 📩",
+      "cenas": [
+        {
+          "tipo": "texto",
+          "titulo": "Cliente na fila e\nvocê sem achar a página?",
+          "fala": "Cliente na fila e você procurando a página do caderno?"
+        },
+        {
+          "tipo": "tela",
+          "tela": "anotar",
+          "titulo": "Anotou em\npoucos segundos",
+          "fala": "Aqui você anota o fiado em poucos segundos.",
+          "foco": [
+            69,
+            789,
+            1008,
+            1680
+          ],
+          "zoom": 1.3,
+          "toque": true
+        },
+        {
+          "tipo": "tela",
+          "tela": "cliente",
+          "titulo": "Histórico de\ncada cliente",
+          "fala": "Tudo fica guardado no histórico de cada cliente.",
+          "foco": [
+            42,
+            1100,
+            1038,
+            1800
+          ],
+          "zoom": 1.3
+        },
+        {
+          "tipo": "fim"
+        }
+      ]
     }
   ]
 }
