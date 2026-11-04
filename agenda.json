@@ -1,1 +1,50 @@
-{}
+{
+  "01-caderno-de-papel": {
+    "data": "2026-11-05T19:00:00-03:00",
+    "planner": "https://app.metricool.com/planner/calendar?blogId=7298441&openWithPostUuid=-816605780670591301"
+  },
+  "02-cobrar-no-whatsapp": {
+    "data": "2026-11-07T11:00:00-03:00",
+    "planner": "https://app.metricool.com/planner/calendar?blogId=7298441&openWithPostUuid=-6272815147232047996"
+  },
+  "03-quanto-te-devem": {
+    "data": "2026-11-10T19:00:00-03:00",
+    "planner": "https://app.metricool.com/planner/calendar?blogId=7298441&openWithPostUuid=-8986478044895100445"
+  },
+  "04-menos-de-3-reais": {
+    "data": "2026-11-12T19:00:00-03:00",
+    "planner": "https://app.metricool.com/planner/calendar?blogId=7298441&openWithPostUuid=-5749408669287363692"
+  },
+  "05-perdeu-o-caderno": {
+    "data": "2026-11-14T11:00:00-03:00",
+    "planner": "https://app.metricool.com/planner/calendar?blogId=7298441&openWithPostUuid=-1309563276918108971"
+  },
+  "06-letra-que-ninguem-entende": {
+    "data": "2026-11-17T19:00:00-03:00",
+    "planner": "https://app.metricool.com/planner/calendar?blogId=7298441&openWithPostUuid=1425918507556687601"
+  },
+  "07-cliente-jura-que-pagou": {
+    "data": "2026-11-19T19:00:00-03:00",
+    "planner": "https://app.metricool.com/planner/calendar?blogId=7298441&openWithPostUuid=-795779380496480329"
+  },
+  "08-3-dicas-para-cobrar": {
+    "data": "2026-11-21T11:00:00-03:00",
+    "planner": "https://app.metricool.com/planner/calendar?blogId=7298441&openWithPostUuid=7833832555676192219"
+  },
+  "09-fim-do-mes": {
+    "data": "2026-11-24T19:00:00-03:00",
+    "planner": "https://app.metricool.com/planner/calendar?blogId=7298441&openWithPostUuid=2566726671982216053"
+  },
+  "10-fiado-de-30-dias": {
+    "data": "2026-11-26T19:00:00-03:00",
+    "planner": "https://app.metricool.com/planner/calendar?blogId=7298441&openWithPostUuid=-8758254904261458139"
+  },
+  "11-funciona-sem-internet": {
+    "data": "2026-11-28T11:00:00-03:00",
+    "planner": "https://app.metricool.com/planner/calendar?blogId=7298441&openWithPostUuid=-1481649493152019343"
+  },
+  "12-pra-todo-comercio": {
+    "data": "2026-12-01T19:00:00-03:00",
+    "planner": "https://app.metricool.com/planner/calendar?blogId=7298441&openWithPostUuid=448508963286960256"
+  }
+}
