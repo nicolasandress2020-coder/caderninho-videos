@@ -23,13 +23,16 @@ Conte quantos roteiros ainda **não** estão em `agenda.json` (prontos ou ainda 
 
 Regras de cada roteiro (copie o formato dos que já existem):
 - `id`: número seguinte com 2 dígitos + nome curto, ex. `13-cliente-sumiu`.
-- 3 a 5 cenas + a cena final `{"tipo": "fim"}`. O vídeo deve ter de 15 a 25 segundos: cada `fala` com até 15 palavras, frases simples, em português do Brasil falado.
+- **4 ou 5 cenas** + a cena final `{"tipo": "fim"}`. O vídeo deve ter de 15 a 25 segundos: cada `fala` com até 15 palavras e **todas as falas somadas com 35 a 50 palavras** (com menos de 35 o vídeo fica abaixo de 15 s). Frases simples, em português do Brasil falado.
 - 1ª cena: `texto` com um **gancho** forte (pergunta ou situação do dia a dia de quem vende fiado), diferente de todos os ganchos que já existem.
 - Cenas `tela` só com as telas `lista`, `cliente`, `anotar`, `relatorio`, usando os focos da tabela abaixo. `titulo` com até 2 linhas curtas (use `\n`). Use `"toque": true` só nos botões.
 - Pode usar `mensagem` (mostra a cobrança pronta com o Pix) e `texto` (com `sub` opcional).
 - `legenda`: 2 a 4 frases + linha final exatamente `R$ 29,99 por ano. Peça o app aqui no Direct 📩`. Pode ter 1 ou 2 emojis.
 - Não invente funções que o app não tem (ele **não** tem: estoque, nota fiscal, vários usuários, versão para iPhone, cobrança automática). Não cite concorrentes, não use depoimento de cliente, não prometa ganho de dinheiro. Os dados nas telas são de exemplo.
-- Valide: `python -c "import json; json.load(open('roteiros.json', encoding='utf-8'))"`.
+- Valide (confere só os roteiros que ainda não estão em `agenda.json`; tem que imprimir `ok` em todos os que você escreveu; se der `REFAZER`, reescreva esse roteiro). Nunca mexa em roteiro que já está em `agenda.json`:
+  ```
+  python3 -c "import json; a=json.load(open('agenda.json', encoding='utf-8')); [print(v['id'], 'ok' if 4 <= len(c) <= 5 and 35 <= w <= 50 else 'REFAZER', len(c), 'cenas', w, 'palavras') for v in json.load(open('roteiros.json', encoding='utf-8'))['videos'] if v['id'] not in a for c in [[x for x in v['cenas'] if x.get('tipo') != 'fim']] for w in [sum(len((x.get('fala') or '').split()) for x in c)]]"
+  ```
 
 Focos (coordenadas na captura 1080x2400) e zoom sugerido:
 
