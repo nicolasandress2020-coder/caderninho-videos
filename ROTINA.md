@@ -15,7 +15,8 @@ Um vídeo está pronto quando existe `saida/<id>.mp4` no repositório **e** o li
 - Escolha o próximo horário livre entre os `horarios` de `postagem.json` (fuso `America/Sao_Paulo`), a partir de amanhã, sem repetir dia que já tenha post (confira `agenda.json` e `getScheduledPosts`). No máximo `posts_por_semana` por semana.
 - Agende com `createScheduledPost`: `blogId` = `metricool_blog_id`; `providers` = `[{"network":"instagram"}]`; `instagramData` = `{"type":"REEL","showReelOnFeed":true,"isAiGenerated":true}`; `text` = conteúdo de `saida/<id>.txt`; `media` = `["<pages_url>/<id>.mp4"]`; `videoThumbnailUrl` = `"<pages_url>/<id>.jpg"`; `autoPublish` = true; `draft` = false.
 - Anote em `agenda.json`: `"<id>": {"data": "<ISO com fuso>", "planner": "<plannerUrl da resposta>"}`.
-- Agende no máximo 6 por execução.
+- Agende no máximo 7 por execução.
+- Se o Metricool recusar um agendamento (por exemplo, limite de posts do plano), pare de agendar, não tente de novo e diga no resumo a mensagem de erro exata. Os vídeos que sobrarem ficam para a próxima execução.
 
 ## 3. Escrever roteiros novos
 

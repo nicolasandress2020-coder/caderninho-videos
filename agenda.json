@@ -46,5 +46,17 @@
   "12-pra-todo-comercio": {
     "data": "2026-12-01T19:00:00-03:00",
     "planner": "https://app.metricool.com/planner/calendar?blogId=7298441&openWithPostUuid=448508963286960256"
+  },
+  "13-cliente-sumiu": {
+    "data": "2026-11-06T19:00:00-03:00",
+    "planner": "https://app.metricool.com/planner/calendar?blogId=7298441&openWithPostUuid=9132981702950408172"
+  },
+  "14-quem-deve-mais": {
+    "data": "2026-11-08T11:00:00-03:00",
+    "planner": "https://app.metricool.com/planner/calendar?blogId=7298441&openWithPostUuid=-3531758406342980992"
+  },
+  "15-anotar-em-segundos": {
+    "data": "2026-11-09T19:00:00-03:00",
+    "planner": "https://app.metricool.com/planner/calendar?blogId=7298441&openWithPostUuid=1709596282356777689"
   }
 }
