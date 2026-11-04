@@ -1,0 +1,552 @@
+{
+  "voz": "pt-BR-FranciscaNeural",
+  "velocidade": "+8%",
+  "fim": {
+    "titulo": "Peça no Direct",
+    "sub": "@caderninhodefiados",
+    "preco": "R$ 29,99 por ano",
+    "fala": "Quer no seu comércio? Manda uma mensagem no Direct do Caderninho de Fiado."
+  },
+  "hashtags": "#fiado #cadernodefiado #mercadinho #comercio #pequenonegocio #empreendedorismo #pix #vendas #lojinha #caderninhodefiado",
+  "videos": [
+    {
+      "id": "01-caderno-de-papel",
+      "legenda": "Seu caderno de fiado ainda é de papel? 📒\n\nNo Caderninho de Fiado você anota em segundos, vê na hora quanto tem pra receber e sabe quem está atrasado.\n\nR$ 29,99 por ano. Peça o app aqui no Direct 📩",
+      "cenas": [
+        {
+          "tipo": "texto",
+          "titulo": "Ainda anota o fiado\nno caderno de papel?",
+          "fala": "Ainda anota o fiado no caderno de papel?"
+        },
+        {
+          "tipo": "tela",
+          "tela": "lista",
+          "titulo": "Veja na hora quanto\ntem pra receber",
+          "fala": "Com o Caderninho de Fiado, você vê na hora quanto tem pra receber.",
+          "foco": [
+            42,
+            306,
+            1038,
+            594
+          ],
+          "zoom": 1.45
+        },
+        {
+          "tipo": "tela",
+          "tela": "anotar",
+          "titulo": "Anotar leva\n5 segundos",
+          "fala": "Anotar uma compra leva cinco segundos: o valor, o que levou, e pronto.",
+          "foco": [
+            69,
+            789,
+            1008,
+            1680
+          ],
+          "zoom": 1.3
+        },
+        {
+          "tipo": "tela",
+          "tela": "lista",
+          "titulo": "Fica vermelho quem\nestá atrasado",
+          "fala": "E fica vermelho quem está devendo há mais de trinta dias.",
+          "foco": [
+            42,
+            780,
+            1038,
+            1158
+          ],
+          "zoom": 1.55
+        },
+        {
+          "tipo": "fim"
+        }
+      ]
+    },
+    {
+      "id": "02-cobrar-no-whatsapp",
+      "legenda": "Vergonha de cobrar o fiado? 😅\n\nUm toque e a cobrança vai pro WhatsApp do cliente, educada, com o valor certinho e o Pix copia e cola. Ele só copia, cola no banco e paga.\n\nR$ 29,99 por ano. Peça o app aqui no Direct 📩",
+      "cenas": [
+        {
+          "tipo": "texto",
+          "titulo": "Vergonha de\ncobrar o fiado?",
+          "fala": "Tem vergonha de cobrar o fiado?"
+        },
+        {
+          "tipo": "tela",
+          "tela": "cliente",
+          "titulo": "Um toque:\ncobrar no WhatsApp",
+          "fala": "No Caderninho de Fiado é um toque só: cobrar no WhatsApp.",
+          "foco": [
+            42,
+            843,
+            1038,
+            972
+          ],
+          "zoom": 1.5,
+          "toque": true
+        },
+        {
+          "tipo": "mensagem",
+          "titulo": "A mensagem\nvai pronta",
+          "fala": "A mensagem já vai educada, com o valor certinho e o Pix copia e cola."
+        },
+        {
+          "tipo": "texto",
+          "titulo": "O cliente copia,\ncola e paga",
+          "fala": "O cliente só copia, cola no banco e paga."
+        },
+        {
+          "tipo": "fim"
+        }
+      ]
+    },
+    {
+      "id": "03-quanto-te-devem",
+      "legenda": "Você sabe quanto seus clientes te devem hoje? 🤔\n\nO Caderninho de Fiado soma tudo pra você e mostra no relatório quanto saiu fiado, quanto entrou e quem deve mais.\n\nR$ 29,99 por ano. Peça o app aqui no Direct 📩",
+      "cenas": [
+        {
+          "tipo": "texto",
+          "titulo": "Quanto te devem\nhoje?",
+          "fala": "Você sabe quanto os seus clientes te devem hoje?"
+        },
+        {
+          "tipo": "tela",
+          "tela": "lista",
+          "titulo": "O app soma\ntudo pra você",
+          "fala": "O Caderninho de Fiado soma tudo pra você. Nesse exemplo, são seiscentos e vinte e sete reais pra receber.",
+          "foco": [
+            42,
+            306,
+            1038,
+            594
+          ],
+          "zoom": 1.45
+        },
+        {
+          "tipo": "tela",
+          "tela": "relatorio",
+          "titulo": "Quanto saiu e\nquanto entrou",
+          "fala": "No relatório você vê quanto saiu fiado e quanto entrou no mês.",
+          "foco": [
+            42,
+            459,
+            1038,
+            711
+          ],
+          "zoom": 1.45
+        },
+        {
+          "tipo": "tela",
+          "tela": "relatorio",
+          "titulo": "E quem deve mais",
+          "fala": "E quem deve mais.",
+          "foco": [
+            42,
+            1050,
+            1038,
+            1584
+          ],
+          "zoom": 1.35
+        },
+        {
+          "tipo": "fim"
+        }
+      ]
+    },
+    {
+      "id": "04-menos-de-3-reais",
+      "legenda": "Seu caderno de fiado organizado por R$ 2,50 por mês 📒\n\nClientes ilimitados, cobrança no WhatsApp com Pix, relatório do mês e cópia de segurança. Funciona sem internet.\n\nR$ 29,99 por ano. Peça o app aqui no Direct 📩",
+      "cenas": [
+        {
+          "tipo": "texto",
+          "titulo": "Seu fiado organizado\npor R$ 2,50 por mês",
+          "fala": "Seu fiado organizado por dois e cinquenta por mês."
+        },
+        {
+          "tipo": "tela",
+          "tela": "lista",
+          "titulo": "Clientes\nilimitados",
+          "fala": "Clientes ilimitados,",
+          "foco": [
+            42,
+            780,
+            1038,
+            1600
+          ],
+          "zoom": 1.2
+        },
+        {
+          "tipo": "tela",
+          "tela": "cliente",
+          "titulo": "Cobrança com Pix",
+          "fala": "cobrança no WhatsApp com Pix,",
+          "foco": [
+            42,
+            843,
+            1038,
+            972
+          ],
+          "zoom": 1.5,
+          "toque": true
+        },
+        {
+          "tipo": "tela",
+          "tela": "relatorio",
+          "titulo": "Relatório do mês",
+          "fala": "relatório do mês, e funciona sem internet.",
+          "foco": [
+            42,
+            459,
+            1038,
+            1584
+          ],
+          "zoom": 1.15
+        },
+        {
+          "tipo": "texto",
+          "titulo": "R$ 29,99\npor ano",
+          "sub": "Menos de 10 centavos por dia",
+          "fala": "Tudo isso por vinte e nove e noventa e nove por ano."
+        },
+        {
+          "tipo": "fim"
+        }
+      ]
+    },
+    {
+      "id": "05-perdeu-o-caderno",
+      "legenda": "E se o caderno de fiado molhar, rasgar ou sumir? 😱\n\nNo Caderninho de Fiado tudo fica no celular, e dá pra salvar uma cópia de segurança no Google Drive.\n\nR$ 29,99 por ano. Peça o app aqui no Direct 📩",
+      "cenas": [
+        {
+          "tipo": "texto",
+          "titulo": "E se você perder\no caderno?",
+          "fala": "E se você perder o caderno de fiado?"
+        },
+        {
+          "tipo": "texto",
+          "titulo": "Molhou, rasgou,\nsumiu...",
+          "fala": "Molhou, rasgou, sumiu... lá se vai o dinheiro.",
+          "sub": "Lá se vai o dinheiro"
+        },
+        {
+          "tipo": "tela",
+          "tela": "lista",
+          "titulo": "No celular, tudo\nfica guardado",
+          "fala": "No Caderninho de Fiado, tudo fica guardado no celular.",
+          "foco": [
+            42,
+            780,
+            1038,
+            1600
+          ],
+          "zoom": 1.2
+        },
+        {
+          "tipo": "texto",
+          "titulo": "E com cópia\nno Google Drive",
+          "fala": "E dá pra salvar uma cópia de segurança no Google Drive.",
+          "sub": "Cópia de segurança"
+        },
+        {
+          "tipo": "fim"
+        }
+      ]
+    },
+    {
+      "id": "06-letra-que-ninguem-entende",
+      "legenda": "Caderno de fiado com letra que ninguém entende? ✍️\n\nNo app cada compra fica com data, valor e o que o cliente levou. E o total já vem somado.\n\nR$ 29,99 por ano. Peça o app aqui no Direct 📩",
+      "cenas": [
+        {
+          "tipo": "texto",
+          "titulo": "Caderno com letra\nque ninguém entende?",
+          "fala": "Caderno de fiado com letra que ninguém entende?"
+        },
+        {
+          "tipo": "tela",
+          "tela": "cliente",
+          "titulo": "Cada compra com\ndata e valor",
+          "fala": "No Caderninho de Fiado, cada compra fica com a data, o valor e o que o cliente levou.",
+          "foco": [
+            42,
+            1100,
+            1038,
+            1800
+          ],
+          "zoom": 1.3
+        },
+        {
+          "tipo": "tela",
+          "tela": "cliente",
+          "titulo": "O total já vem\nsomado",
+          "fala": "E o total já vem somado, sem fazer conta.",
+          "foco": [
+            42,
+            300,
+            1038,
+            654
+          ],
+          "zoom": 1.45
+        },
+        {
+          "tipo": "fim"
+        }
+      ]
+    },
+    {
+      "id": "07-cliente-jura-que-pagou",
+      "legenda": "O cliente jura que já pagou? 🤨\n\nCom tudo anotado e com data, não tem discussão. Recebeu? Um toque em Recebi e o saldo atualiza.\n\nR$ 29,99 por ano. Peça o app aqui no Direct 📩",
+      "cenas": [
+        {
+          "tipo": "texto",
+          "titulo": "O cliente jura\nque já pagou?",
+          "fala": "O cliente jura que já pagou?"
+        },
+        {
+          "tipo": "tela",
+          "tela": "cliente",
+          "titulo": "Tá tudo anotado,\ncom data",
+          "fala": "Com o Caderninho de Fiado, está tudo anotado, com data. Não tem discussão.",
+          "foco": [
+            42,
+            1100,
+            1038,
+            1800
+          ],
+          "zoom": 1.3
+        },
+        {
+          "tipo": "tela",
+          "tela": "cliente",
+          "titulo": "Recebeu? Um toque\nem Recebi",
+          "fala": "Recebeu? Um toque em Recebi e o saldo já atualiza.",
+          "foco": [
+            552,
+            687,
+            1038,
+            816
+          ],
+          "zoom": 1.4,
+          "toque": true
+        },
+        {
+          "tipo": "fim"
+        }
+      ]
+    },
+    {
+      "id": "08-3-dicas-para-cobrar",
+      "legenda": "3 dicas pra cobrar o fiado sem perder o cliente 👇\n\n1. Cobre com educação\n2. Mande o valor certinho\n3. Facilite: mande o Pix\n\nO Caderninho de Fiado faz as três por você, direto no WhatsApp.\n\nR$ 29,99 por ano. Peça o app aqui no Direct 📩",
+      "cenas": [
+        {
+          "tipo": "texto",
+          "titulo": "3 dicas pra cobrar\nfiado sem perder\no cliente",
+          "fala": "Três dicas pra cobrar o fiado sem perder o cliente."
+        },
+        {
+          "tipo": "texto",
+          "titulo": "1. Cobre com\neducação",
+          "fala": "Um: cobre com educação."
+        },
+        {
+          "tipo": "texto",
+          "titulo": "2. Mande o valor\ncertinho",
+          "fala": "Dois: mande o valor certinho, sem erro."
+        },
+        {
+          "tipo": "texto",
+          "titulo": "3. Facilite:\nmande o Pix",
+          "fala": "Três: facilite, mande o Pix."
+        },
+        {
+          "tipo": "mensagem",
+          "titulo": "O app faz as 3\npor você",
+          "fala": "O Caderninho de Fiado faz as três por você, direto no WhatsApp."
+        },
+        {
+          "tipo": "fim"
+        }
+      ]
+    },
+    {
+      "id": "09-fim-do-mes",
+      "legenda": "Fim do mês e você não sabe quanto vendeu fiado? 📊\n\nO relatório do Caderninho de Fiado mostra quanto saiu, quanto entrou e quem deve mais.\n\nR$ 29,99 por ano. Peça o app aqui no Direct 📩",
+      "cenas": [
+        {
+          "tipo": "texto",
+          "titulo": "Fim do mês e não\nsabe quanto vendeu\nfiado?",
+          "fala": "Fim do mês e você não sabe quanto vendeu fiado?"
+        },
+        {
+          "tipo": "tela",
+          "tela": "relatorio",
+          "titulo": "Quanto saiu e\nquanto entrou",
+          "fala": "No relatório, você vê quanto saiu fiado e quanto entrou.",
+          "foco": [
+            42,
+            459,
+            1038,
+            711
+          ],
+          "zoom": 1.45
+        },
+        {
+          "tipo": "tela",
+          "tela": "relatorio",
+          "titulo": "Quem deve mais",
+          "fala": "E a lista de quem deve mais.",
+          "foco": [
+            42,
+            1050,
+            1038,
+            1584
+          ],
+          "zoom": 1.35
+        },
+        {
+          "tipo": "fim"
+        }
+      ]
+    },
+    {
+      "id": "10-fiado-de-30-dias",
+      "legenda": "Fiado de mais de 30 dias é dinheiro em risco ⚠️\n\nO Caderninho de Fiado deixa vermelho quem está atrasado e você cobra com um toque no WhatsApp.\n\nR$ 29,99 por ano. Peça o app aqui no Direct 📩",
+      "cenas": [
+        {
+          "tipo": "texto",
+          "titulo": "Fiado de mais de\n30 dias é dinheiro\nem risco",
+          "fala": "Fiado de mais de trinta dias é dinheiro em risco."
+        },
+        {
+          "tipo": "tela",
+          "tela": "lista",
+          "titulo": "O app deixa\nvermelho",
+          "fala": "O Caderninho de Fiado deixa vermelho quem está atrasado.",
+          "foco": [
+            42,
+            780,
+            1038,
+            1158
+          ],
+          "zoom": 1.55
+        },
+        {
+          "tipo": "tela",
+          "tela": "cliente",
+          "titulo": "Desde quando\nestá devendo",
+          "fala": "Mostra desde quando o cliente está devendo,",
+          "foco": [
+            42,
+            300,
+            1038,
+            654
+          ],
+          "zoom": 1.45
+        },
+        {
+          "tipo": "tela",
+          "tela": "cliente",
+          "titulo": "E você cobra\ncom um toque",
+          "fala": "e você cobra com um toque no WhatsApp.",
+          "foco": [
+            42,
+            843,
+            1038,
+            972
+          ],
+          "zoom": 1.5,
+          "toque": true
+        },
+        {
+          "tipo": "fim"
+        }
+      ]
+    },
+    {
+      "id": "11-funciona-sem-internet",
+      "legenda": "Sem sinal na loja? Sem problema 📶\n\nO Caderninho de Fiado funciona sem internet e tudo fica guardado no seu celular.\n\nR$ 29,99 por ano. Peça o app aqui no Direct 📩",
+      "cenas": [
+        {
+          "tipo": "texto",
+          "titulo": "Sem sinal\nna loja?",
+          "fala": "Sem sinal de internet na loja?"
+        },
+        {
+          "tipo": "tela",
+          "tela": "anotar",
+          "titulo": "Anote mesmo\nsem internet",
+          "fala": "O Caderninho de Fiado funciona sem internet. Você anota normalmente.",
+          "foco": [
+            69,
+            789,
+            1008,
+            1680
+          ],
+          "zoom": 1.3
+        },
+        {
+          "tipo": "tela",
+          "tela": "lista",
+          "titulo": "Fica tudo no\nseu celular",
+          "fala": "E fica tudo guardado no seu celular.",
+          "foco": [
+            42,
+            306,
+            1038,
+            594
+          ],
+          "zoom": 1.45
+        },
+        {
+          "tipo": "fim"
+        }
+      ]
+    },
+    {
+      "id": "12-pra-todo-comercio",
+      "legenda": "Mercadinho, salão, oficina, lanchonete... se você vende fiado, esse app é pra você 🏪\n\nUm caderno pra cada cliente, o total na hora e a cobrança no WhatsApp com Pix.\n\nR$ 29,99 por ano. Peça o app aqui no Direct 📩",
+      "cenas": [
+        {
+          "tipo": "texto",
+          "titulo": "Mercadinho, salão,\noficina, lanchonete",
+          "fala": "Mercadinho, salão, oficina, lanchonete..."
+        },
+        {
+          "tipo": "texto",
+          "titulo": "Vende fiado?",
+          "fala": "Se você vende fiado, esse app é pra você.",
+          "sub": "Esse app é pra você"
+        },
+        {
+          "tipo": "tela",
+          "tela": "lista",
+          "titulo": "Cada cliente com\nseu caderno",
+          "fala": "Cada cliente com o seu caderno, e o total na hora.",
+          "foco": [
+            42,
+            780,
+            1038,
+            1600
+          ],
+          "zoom": 1.2
+        },
+        {
+          "tipo": "tela",
+          "tela": "cliente",
+          "titulo": "Cobrança no\nWhatsApp com Pix",
+          "fala": "E a cobrança vai pelo WhatsApp, com o Pix pronto.",
+          "foco": [
+            42,
+            843,
+            1038,
+            972
+          ],
+          "zoom": 1.5,
+          "toque": true
+        },
+        {
+          "tipo": "fim"
+        }
+      ]
+    }
+  ]
+}

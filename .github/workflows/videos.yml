@@ -1,0 +1,61 @@
+# Gera na nuvem os vídeos que ainda não existem (roteiros novos em roteiros.json)
+# e publica a pasta no GitHub Pages, que dá o link público que o Metricool usa para postar.
+name: Gerar e publicar vídeos
+
+on:
+  push:
+    branches: [main]
+    paths: ["roteiros.json", "gerar.py", "telas/**", "fontes/**", "icone.png"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: videos
+  cancel-in-progress: false
+
+jobs:
+  gerar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Instalar ffmpeg e Python
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg
+          pip install -r requirements.txt
+
+      - name: Gerar os vídeos que faltam
+        run: python gerar.py --faltando
+
+      - name: Guardar os vídeos no repositório
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add saida
+          if git diff --cached --quiet; then
+            echo "Nenhum vídeo novo."
+          else
+            git commit -m "Vídeos gerados automaticamente"
+            git push
+          fi
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: saida
+
+  publicar:
+    needs: gerar
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - id: deploy
+        uses: actions/deploy-pages@v4
