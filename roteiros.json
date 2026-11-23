@@ -1070,6 +1070,350 @@
           "tipo": "fim"
         }
       ]
+    },
+    {
+      "id": "23-fiado-esquecido",
+      "legenda": "Quantos fiados você já esqueceu de cobrar? 🤔\n\nNo Caderninho de Fiado, cada cliente tem a conta dele e o total que deve.\n\nR$ 29,99 por ano. Peça o app aqui no Direct 📩",
+      "cenas": [
+        {
+          "tipo": "texto",
+          "titulo": "Quantos fiados você\njá esqueceu de cobrar?",
+          "fala": "Quantos fiados você já esqueceu de cobrar por aí?"
+        },
+        {
+          "tipo": "tela",
+          "tela": "lista",
+          "titulo": "Todos os clientes\nna lista",
+          "fala": "No app, todos os clientes ficam numa lista, cada um com o que deve.",
+          "foco": [
+            42,
+            780,
+            1038,
+            1600
+          ],
+          "zoom": 1.2
+        },
+        {
+          "tipo": "tela",
+          "tela": "cliente",
+          "titulo": "Quanto e desde\nquando",
+          "fala": "Você abre um cliente e vê o total e desde quando ele está devendo.",
+          "foco": [
+            42,
+            300,
+            1038,
+            654
+          ],
+          "zoom": 1.45
+        },
+        {
+          "tipo": "tela",
+          "tela": "cliente",
+          "titulo": "Cobrar é um toque",
+          "fala": "Aí é só tocar em cobrar no WhatsApp e pronto.",
+          "foco": [
+            42,
+            843,
+            1038,
+            972
+          ],
+          "zoom": 1.5,
+          "toque": true
+        },
+        {
+          "tipo": "fim"
+        }
+      ]
+    },
+    {
+      "id": "24-conta-de-cabeca",
+      "legenda": "Fazer a conta do fiado de cabeça é arriscado 😬\n\nO app soma tudo sozinho e mostra o total a receber.\n\nR$ 29,99 por ano. Peça o app aqui no Direct 📩",
+      "cenas": [
+        {
+          "tipo": "texto",
+          "titulo": "Faz a conta do fiado\nde cabeça?",
+          "fala": "Você faz a conta do fiado de cabeça? Isso dá erro, e o prejuízo é seu."
+        },
+        {
+          "tipo": "tela",
+          "tela": "lista",
+          "titulo": "Total a receber",
+          "fala": "No app, o total a receber já aparece somado, logo na primeira tela.",
+          "foco": [
+            42,
+            306,
+            1038,
+            594
+          ],
+          "zoom": 1.45
+        },
+        {
+          "tipo": "tela",
+          "tela": "cliente",
+          "titulo": "Cada compra\nanotada",
+          "fala": "E cada compra do cliente fica anotada no histórico dele.",
+          "foco": [
+            42,
+            1100,
+            1038,
+            1800
+          ],
+          "zoom": 1.3
+        },
+        {
+          "tipo": "tela",
+          "tela": "cliente",
+          "titulo": "Pagou? Recebi",
+          "fala": "Quando ele paga, é só tocar em recebi.",
+          "foco": [
+            552,
+            687,
+            1038,
+            816
+          ],
+          "zoom": 1.4,
+          "toque": true
+        },
+        {
+          "tipo": "fim"
+        }
+      ]
+    },
+    {
+      "id": "25-cobranca-educada",
+      "legenda": "Cobrar sem ficar chato é possível 🙂\n\nA mensagem sai pronta, com o valor e o Pix.\n\nR$ 29,99 por ano. Peça o app aqui no Direct 📩",
+      "cenas": [
+        {
+          "tipo": "texto",
+          "titulo": "Como cobrar sem\nficar chato?",
+          "fala": "Como cobrar o cliente sem deixar ele chateado?"
+        },
+        {
+          "tipo": "tela",
+          "tela": "cliente",
+          "titulo": "Cobrar no WhatsApp",
+          "fala": "Você toca em cobrar no WhatsApp, dentro da conta do cliente.",
+          "foco": [
+            42,
+            843,
+            1038,
+            972
+          ],
+          "zoom": 1.5,
+          "toque": true
+        },
+        {
+          "tipo": "mensagem",
+          "titulo": "Mensagem pronta\ncom o Pix",
+          "fala": "A mensagem já sai educada, com o valor certinho e o Pix pronto."
+        },
+        {
+          "tipo": "texto",
+          "titulo": "Você só confere\ne envia",
+          "fala": "Você só confere e envia. Simples assim.",
+          "sub": "Sem constrangimento"
+        },
+        {
+          "tipo": "fim"
+        }
+      ]
+    },
+    {
+      "id": "26-fila-no-balcao",
+      "legenda": "Cliente esperando no balcão e você anotando fiado? ⏱️\n\nNo app, anotar uma compra leva poucos segundos.\n\nR$ 29,99 por ano. Peça o app aqui no Direct 📩",
+      "cenas": [
+        {
+          "tipo": "texto",
+          "titulo": "Fila no balcão e\nfiado pra anotar?",
+          "fala": "Fila no balcão e ainda tem fiado pra anotar?"
+        },
+        {
+          "tipo": "tela",
+          "tela": "anotar",
+          "titulo": "Janela de anotar",
+          "fala": "Abre a janela de anotar, coloca o valor e o que ele levou.",
+          "foco": [
+            69,
+            789,
+            1008,
+            1680
+          ],
+          "zoom": 1.3
+        },
+        {
+          "tipo": "tela",
+          "tela": "lista",
+          "titulo": "Já aparece\nna lista",
+          "fala": "Pronto, a compra já entra na conta daquele cliente.",
+          "foco": [
+            42,
+            780,
+            1038,
+            1600
+          ],
+          "zoom": 1.2
+        },
+        {
+          "tipo": "texto",
+          "titulo": "Rápido e sem\nbagunça",
+          "fala": "Sem caderno, sem rasura, sem perder tempo."
+        },
+        {
+          "tipo": "fim"
+        }
+      ]
+    },
+    {
+      "id": "27-quem-esta-atrasado",
+      "legenda": "Você sabe quem está com o fiado atrasado? 🔴\n\nNo app, os atrasados aparecem em vermelho na lista.\n\nR$ 29,99 por ano. Peça o app aqui no Direct 📩",
+      "cenas": [
+        {
+          "tipo": "texto",
+          "titulo": "Quem está com o\nfiado atrasado?",
+          "fala": "Você sabe quem está com o fiado atrasado hoje?"
+        },
+        {
+          "tipo": "tela",
+          "tela": "lista",
+          "titulo": "Atrasados em\nvermelho",
+          "fala": "No app, quem está atrasado aparece em vermelho na lista.",
+          "foco": [
+            42,
+            780,
+            1038,
+            1158
+          ],
+          "zoom": 1.55
+        },
+        {
+          "tipo": "tela",
+          "tela": "cliente",
+          "titulo": "Abra e veja\no total",
+          "fala": "Você abre o cliente e vê quanto ele deve e desde quando.",
+          "foco": [
+            42,
+            300,
+            1038,
+            654
+          ],
+          "zoom": 1.45
+        },
+        {
+          "tipo": "tela",
+          "tela": "cliente",
+          "titulo": "Cobre na hora",
+          "fala": "E já cobra pelo WhatsApp, sem procurar nada.",
+          "foco": [
+            42,
+            843,
+            1038,
+            972
+          ],
+          "zoom": 1.5,
+          "toque": true
+        },
+        {
+          "tipo": "fim"
+        }
+      ]
+    },
+    {
+      "id": "28-resumo-do-mes",
+      "legenda": "Quanto você vendeu fiado e quanto já recebeu? 📊\n\nO relatório do app mostra isso em um lugar só.\n\nR$ 29,99 por ano. Peça o app aqui no Direct 📩",
+      "cenas": [
+        {
+          "tipo": "texto",
+          "titulo": "Vendeu fiado.\nE recebeu quanto?",
+          "fala": "Você vendeu fiado esse mês, mas quanto já recebeu?"
+        },
+        {
+          "tipo": "tela",
+          "tela": "relatorio",
+          "titulo": "Saiu x recebido",
+          "fala": "No relatório, você vê o que saiu fiado e o que já entrou.",
+          "foco": [
+            42,
+            459,
+            1038,
+            711
+          ],
+          "zoom": 1.45
+        },
+        {
+          "tipo": "tela",
+          "tela": "relatorio",
+          "titulo": "Quem deve mais",
+          "fala": "E ainda vê quais clientes devem mais pra você.",
+          "foco": [
+            42,
+            1050,
+            1038,
+            1584
+          ],
+          "zoom": 1.35
+        },
+        {
+          "tipo": "texto",
+          "titulo": "Decida com\nos números",
+          "fala": "Assim você decide com calma quem merece mais fiado."
+        },
+        {
+          "tipo": "fim"
+        }
+      ]
+    },
+    {
+      "id": "29-conta-separada",
+      "legenda": "Misturar a conta dos clientes dá confusão 😵\n\nNo app, cada cliente tem a conta separada.\n\nR$ 29,99 por ano. Peça o app aqui no Direct 📩",
+      "cenas": [
+        {
+          "tipo": "texto",
+          "titulo": "Conta de todo mundo\nmisturada?",
+          "fala": "A conta de todo mundo misturada na mesma página do caderno?"
+        },
+        {
+          "tipo": "tela",
+          "tela": "lista",
+          "titulo": "Cada um com\na sua conta",
+          "fala": "No app, cada cliente tem a própria conta, separada das outras.",
+          "foco": [
+            42,
+            780,
+            1038,
+            1600
+          ],
+          "zoom": 1.2
+        },
+        {
+          "tipo": "tela",
+          "tela": "cliente",
+          "titulo": "Histórico de\ncompras",
+          "fala": "Você vê tudo o que ele comprou, compra por compra.",
+          "foco": [
+            42,
+            1100,
+            1038,
+            1800
+          ],
+          "zoom": 1.3
+        },
+        {
+          "tipo": "tela",
+          "tela": "cliente",
+          "titulo": "Total sempre\ncerto",
+          "fala": "E o total devendo está sempre certo, na hora que você abrir.",
+          "foco": [
+            42,
+            300,
+            1038,
+            654
+          ],
+          "zoom": 1.45
+        },
+        {
+          "tipo": "fim"
+        }
+      ]
     }
   ]
 }
